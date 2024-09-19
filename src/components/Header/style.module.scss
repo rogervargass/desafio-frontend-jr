@@ -1,0 +1,27 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #d7dde9;
+}
+
+.welcomeText {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.textSecondary {
+  color: rgb(0, 0, 0, 0.54);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .welcomeText {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,23 @@
+.taskCard {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border: 1px solid #eaecf0;
+  box-shadow: 0 1px 2px 0 rgba(16, 24, 40, 0.05);
+  margin-bottom: 24px;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.cardTitle {
+  color: rgba(0, 0, 0, 0.54);
+  text-align: center;
+}
+
+.cardItems {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}

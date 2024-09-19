@@ -1,0 +1,16 @@
+.checkbox {
+  border-radius: 4px;
+  width: 24px;
+  height: 24px;
+  border-width: 1px;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
